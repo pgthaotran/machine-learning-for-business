@@ -1,27 +1,34 @@
-# Clustering Analysis for Vietnamese Banks (Q3 - 2023)
+# Clustering Analysis for Vietnamese Banks
 
-## Project Overview
+A data-driven approach to segment 27 Vietnamese banks into peer groups based on their Q3 2023 financial performance.
 
-This project presents a data-driven approach to segment Vietnamese banks into meaningful peer groups based on their financial performance in the third quarter of 2023. Using machine learning clustering techniques, this analysis identifies homogeneous segments within the banking sector, uncovers strategic patterns, and provides a foundation for tailored strategic recommendations.
+---
 
-The primary methods employed are **K-Means Clustering** and **Hierarchical Clustering**, with **Principal Component Analysis (PCA)** used for dimensionality reduction and visualization.
+## Overview
 
-## Business Problem
+Vietnam's banking sector is highly diverse — institutions vary significantly in scale, profitability, and risk profiles, making direct benchmarking challenging. This project applies clustering algorithms to identify homogeneous segments within the sector and derive strategic insights.
 
-Vietnam's banking industry is highly diverse, with institutions varying significantly in scale, profitability, operational focus, and risk profiles. This diversity makes direct performance comparison and strategic benchmarking challenging for regulators, investors, and the banks themselves. This project addresses this gap by creating a standardized segmentation based on key financial indicators.
+**Methods:** K-Means Clustering · Hierarchical Clustering · PCA (dimensionality reduction & visualization)
 
-**Objective:** To apply clustering algorithms to segment 27 Vietnamese banks using their Income Statement (KQKD) metrics from Q3 2023, and derive strategic insights from the resulting clusters.
+---
 
 ## Dataset
 
-* **Source:** `BCTC_Bank.xlsx` - A dataset containing financial metrics for Vietnamese banks.
-* **Scope:** The analysis is scoped to financial data from **Q3 2023** for **27 unique banks**.
-* **Features:** We focused on **21 key financial indicators** from the Income Statement (known as "KQKD" metrics). These metrics were chosen because they directly reflect a bank's profitability and operational efficiency.
+- **Source:** `BCTC_Bank.xlsx` — financial metrics for 27 Vietnamese banks
+- **Scope:** Income Statement (KQKD) data from Q3 2023
+- **Features:** 21 key financial indicators reflecting profitability and operational efficiency
 
-## Files in this Repository
+---
 
-* `MIS451_FINAL_PROJECT_CLUSTERING.ipynb`: The main Jupyter Notebook containing all Python code and analysis.
-* `BCTC_Bank.xlsx`: The raw dataset used for the analysis.
-* `MIS451_FINAL_PROJECT_REPORT.pdf`: The final report detailing the project's methodology, findings, and conclusions.
-* `MIS451_FINAL_PROJECT_PRESENTATION.pdf`: The slide deck for the project presentation.
+## Files
 
+| File | Description |
+|---|---|
+| `Clustering Analysis Vietnamese Banks.ipynb` | Main notebook — full analysis and code |
+| `BCTC_Bank.xlsx` | Raw dataset |
+
+---
+
+## Tools
+
+`Python` · `scikit-learn` · `K-Means` · `Hierarchical Clustering` · `PCA` · `Pandas` · `Matplotlib`
